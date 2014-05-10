@@ -17,7 +17,7 @@ body {
 	color: white;
 	background-color: #fdfdfd;
 	background-image: url("../img/bg@1000.jpg");
-	background-size: 100%;
+	
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -111,8 +111,12 @@ body {
 }
 
 /*==================================================================
-* Nav
+* Blurb
 *==================================================================*/
+
+#blurb p { 
+	font-size: 2em;
+}
 
 
 @media (min-width: 640px) {
