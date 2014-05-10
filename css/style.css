@@ -134,7 +134,7 @@ body {
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
 
 	
 	#form-login, #content {
@@ -161,6 +161,12 @@ body {
 	
 }
 
+@media (max-width: 768px) {
+	.hidden-phone {
+		display: none;
+	}
+
+}
 
 
 
