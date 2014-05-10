@@ -57,11 +57,24 @@ body {
 	display: block;
 	margin: 0;
 	padding: 12px;
-	font-size: 14px;
+	font-size: 16px;
 	border: solid 1px #ccc;
 	width: 100%;
 	box-sizing: border-box;	
 	color: #a9a9a9;
+	box-shadow: inset 1px 2px 5px rgba(0,0,0, .08);
+	outline: none;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 6px #00CD56;
+	border-color: #00CD56;
+}
+
+#user:focus,
+#password:focus {
+	position: relative;
+	z-index: 2;
 }
 
 #user {
