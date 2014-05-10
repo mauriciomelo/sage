@@ -95,7 +95,8 @@ body {
 .btn {
 	background-image: none;
 	//background-color: #ccc;
-	border: none;
+	border: solid 3px transparent;
+	border-width:  0 0 3px 0;
 	color: #fff;
 	padding: 12px;
 	font-weight: bold;
@@ -113,6 +114,7 @@ body {
 
 .btn-success {
 	background-color: #00aa44;
+	border-color: #119435;
 }
 .btn * { 
 	vertical-align: middle;
