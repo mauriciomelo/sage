@@ -2,21 +2,15 @@
 * General
 *==================================================================*/
 
-html,
+
 body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	position: relative;
-}
-
-body {
-
 	font-family: Ubuntu, Arial, sans-serif;
-	color: #555753;
-	color: white;
-	background-color: #fdfdfd;
+	color: #fff;
+	background-color: #019875;
 	background-image: url("../img/bg@1000.jpg");
 	background-attachment: fixed;
 	background-size: cover;
@@ -29,9 +23,23 @@ body {
 	color: #00aa44;
 }
 .container {
+	position: relative;
 	margin: 0 auto;
 	padding: .8em;
 	max-width: 1024px;
+	
+	
+}
+#headline {
+	margin-top: 50px;
+}
+
+hr {
+	clear: both;
+	text-shadow: none;
+	border: solid 1px rgba(255,255,255, .2);
+	
+	margin: 20px 40px;
 	
 }
 /*==================================================================
@@ -43,13 +51,17 @@ body {
 
 #form-login, #content {
 	background-color: #fff;
-	background-color: rgba(255,255,255, .9);
-	background-color: rgba(0,0,0, .7);
+	background-color: rgba(255,255,255, .3);
 	padding: 30px 10px;
 	margin-bottom: 10px;
 	-webkit-box-sizing: border-box; 
 	   -moz-box-sizing: border-box; 
 					box-sizing: border-box;
+}
+
+#content {
+	
+	background-color: transparent;
 }
 
 #form-login legend {
@@ -69,6 +81,7 @@ body {
 	color: #a9a9a9;
 	box-shadow: inset 1px 2px 5px rgba(0,0,0, .08);
 	outline: none;
+	transition-duration: .2s;
 }
 
 .form-control:focus {
@@ -135,9 +148,22 @@ body {
 /*==================================================================
 * Blurb
 *==================================================================*/
-
+#blurb {
+	margin-top: 50px;
+	text-align: center;
+	text-shadow:  1px 1px 3px gray;	
+}
 #blurb p { 
-	font-size: 1.5em;
+	font-size: 1.5em;	
+}
+
+/*==================================================================
+* Footer
+*==================================================================*/
+
+footer {
+	background-color: #fff;
+	background-color: rgba(255,255,255, .3);
 }
 
 /*==================================================================
@@ -148,28 +174,40 @@ body {
 @media (min-width: 768px) {
 
 	
-	#form-login, #content {
-		float: left;		
-		margin: 1%;
-		min-height: 450px			
-		
+	#form-login,
+	#blurb {
+		float: left;
+		padding: 50px;
+		box-sizing: border-box;
 	}
 	
 	#form-login {
-		width: 38%;
-		padding-top: 150px;
-	
+		width: 40%;		
+		
 	}
 	
-	#content {
-		width: 58%;
+	#blurb {
+		width: 60%;
 	}
 	
+	.row {
+		clear: both;
+	}
+	.row .col {
+		box-sizing: border-box;
+		width: 30%;
+		padding: 5%;
+		float: left;
+		text-align: center;
+	}
+	
+	.col img {
+		width: 100px;
+	}
+
 	footer {
 		clear: both;
-			
 	}
-	
 }
 
 @media (max-width: 768px) {
