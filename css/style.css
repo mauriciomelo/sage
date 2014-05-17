@@ -27,8 +27,8 @@ body {
 	margin: 0 auto;
 	padding: .8em;
 	max-width: 1024px;
-	
-	
+
+
 }
 #headline {
 	margin-top: 50px;
@@ -38,9 +38,9 @@ hr {
 	clear: both;
 	text-shadow: none;
 	border: solid 1px rgba(255,255,255, .2);
-	
+
 	margin: 20px 40px;
-	
+
 }
 /*==================================================================
 * Form
@@ -54,13 +54,13 @@ hr {
 	background-color: rgba(255,255,255, .3);
 	padding: 30px 10px;
 	margin-bottom: 10px;
-	-webkit-box-sizing: border-box; 
-	   -moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
 					box-sizing: border-box;
 }
 
 #content {
-	
+
 	background-color: transparent;
 }
 
@@ -75,9 +75,9 @@ hr {
 	font-size: 16px;
 	border: solid 1px #ccc;
 	width: 100%;
-	-webkit-box-sizing: border-box; 
-	   -moz-box-sizing: border-box; 
-					box-sizing: border-box;	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+					box-sizing: border-box;
 	color: #a9a9a9;
 	box-shadow: inset 1px 2px 5px rgba(0,0,0, .08);
 	outline: none;
@@ -123,20 +123,20 @@ hr {
 	border-radius: 3px;
 	outline: 0;
 	vertical-align: middle;
-	-webkit-box-sizing: border-box; 
-	   -moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
 					box-sizing: border-box;
 	text-decoration: none;
 	margin-bottom: 4px;
 	text-shadow: 0 1px 1px gray;
-	
+
 }
 
 .btn-success {
 	background-color: #00aa44;
 	border-color: #119435;
 }
-.btn * { 
+.btn * {
 	vertical-align: middle;
 	display: table-cell;
 }
@@ -151,10 +151,27 @@ hr {
 #blurb {
 	margin-top: 50px;
 	text-align: center;
-	text-shadow:  1px 1px 3px gray;	
+	text-shadow:  1px 1px 3px gray;
 }
-#blurb p { 
-	font-size: 1.5em;	
+#blurb p {
+	font-size: 1.5em;
+}
+
+/*==================================================================
+* Nav (navigation)
+*==================================================================*/
+
+.row {
+	clear: both;
+}
+.row .col {
+	box-sizing: border-box;
+	padding: 5%;
+	text-align: center;
+}
+
+.col img {
+	width: 100px;
 }
 
 /*==================================================================
@@ -164,6 +181,7 @@ hr {
 footer {
 	background-color: #fff;
 	background-color: rgba(255,255,255, .3);
+	clear: both;
 }
 
 /*==================================================================
@@ -173,41 +191,28 @@ footer {
 
 @media (min-width: 768px) {
 
-	
+
 	#form-login,
 	#blurb {
 		float: left;
 		padding: 50px;
 		box-sizing: border-box;
 	}
-	
+
 	#form-login {
-		width: 40%;		
-		
+		width: 40%;
+
 	}
-	
+
 	#blurb {
 		width: 60%;
 	}
-	
-	.row {
-		clear: both;
-	}
+
 	.row .col {
-		box-sizing: border-box;
 		width: 30%;
-		padding: 5%;
 		float: left;
-		text-align: center;
-	}
-	
-	.col img {
-		width: 100px;
 	}
 
-	footer {
-		clear: both;
-	}
 }
 
 @media (max-width: 768px) {
@@ -216,11 +221,3 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
