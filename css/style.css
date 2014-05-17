@@ -23,7 +23,6 @@ body {
 	color: #00aa44;
 }
 .container {
-	position: relative;
 	margin: 0 auto;
 	padding: .8em;
 	max-width: 1024px;
