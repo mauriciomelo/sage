@@ -19,9 +19,6 @@ body {
 }
 
 
-.sage {
-	color: #00aa44;
-}
 .container {
 	margin: 0 auto;
 	padding: .8em;
@@ -143,7 +140,20 @@ body {
 #blurb {
 	text-align: center;
 	text-shadow:  1px 1px 3px gray;
+	font-family: Roboto, Ubuntu, Arial, sans-serif;
+	font-weight: 300;
 }
+#blurb h1 {
+	margin: 0;
+	font-size: 230%;
+	font-weight: 100;
+}
+
+#blurb .sage {
+	text-shadow:  0 0 5px #00aa44;
+	font-weight: 300;
+}
+
 #blurb p {
 	font-size: 1.5em;
 }
@@ -199,6 +209,13 @@ footer {
 		width: 60%;
 	}
 
+	#blurb h1 {
+		font-size: 320%;
+	}
+
+	#blurb .sage {
+
+	}
 	.row .col {
 		width: 30%;
 		float: left;
