@@ -18,6 +18,9 @@ body {
 
 }
 
+.hidden-phone {
+	display: none;
+}
 
 .container {
 	margin: 0 auto;
@@ -201,6 +204,10 @@ footer {
 		background-image: url("../img/bg@1000.jpg");
 	}
 
+	.hidden-phone {
+		display: block;
+	}
+
 	#form-login,
 	#blurb {
 		float: left;
@@ -233,13 +240,6 @@ footer {
 	nav .col img {
 		width: 100px;
 		float: none;
-	}
-
-}
-
-@media (max-width: 768px) {
-	.hidden-phone {
-		display: none;
 	}
 
 }
