@@ -1,0 +1,13 @@
+body {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='img/bg@1000.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='img/bg@1000.jpg', sizingMethod='scale')";
+}
+
+a { /* fix problems with dead links over IE filters */
+  position: relative;
+}
+
+.hidden-label {
+  position: relative;
+  clip: none;
+}
