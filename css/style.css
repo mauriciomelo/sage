@@ -11,7 +11,7 @@ body {
 	font-family: Ubuntu, Arial, sans-serif;
 	color: #fff;
 	background-color: #019875;
-	background-image: url("../img/bg@1000.jpg");
+	background-image: url("../img/bg@360.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -197,7 +197,9 @@ footer {
 
 
 @media (min-width: 768px) {
-
+	body {
+		background-image: url("../img/bg@1000.jpg");
+	}
 
 	#form-login,
 	#blurb {
