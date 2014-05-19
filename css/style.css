@@ -36,6 +36,8 @@ body {
 *==================================================================*/
 #form-login fieldset {
 	border: none;
+	max-width: 400px;
+	margin: 0 auto;
 }
 
 #form-login {

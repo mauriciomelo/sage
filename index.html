@@ -92,5 +92,13 @@
 
 		</script>
 
+		<script>
+			isSmallScreen = window.matchMedia( "(max-width: 768px)" );
+			/* if viewport is narrow, scroll into form-login top */
+			if( isSmallScreen ) {
+				document.getElementById("form-login").scrollIntoView(true);
+			}
+		</script>
+
 	</body>
 </html>
