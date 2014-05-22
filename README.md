@@ -1,4 +1,4 @@
 SAGE
 ====
 
-My redesign for the SAGE homepage
+SAGE login page redesign
